@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule

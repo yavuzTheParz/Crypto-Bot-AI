@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

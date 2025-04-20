@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/CMakeFiles/cpr-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/CMakeFiles/cpr-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr-populate"
+		],
+		"name" : "cpr-populate"
+	}
+}

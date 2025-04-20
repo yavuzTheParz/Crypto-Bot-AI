@@ -1,0 +1,3 @@
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/yavuz/trading_bot/binapi/build_dataGrapper/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
