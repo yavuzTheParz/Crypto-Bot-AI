@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dataGrapper.dir/dataGrapper.cpp.o -o dataGrapper  /usr/local/lib/libcpr.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libcurl.so

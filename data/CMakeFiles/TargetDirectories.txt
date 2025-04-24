@@ -1,0 +1,3 @@
+/mnt/c/Users/yavuz/trading_bot/bot_ai/data/CMakeFiles/dataGrapper.dir
+/mnt/c/Users/yavuz/trading_bot/bot_ai/data/CMakeFiles/edit_cache.dir
+/mnt/c/Users/yavuz/trading_bot/bot_ai/data/CMakeFiles/rebuild_cache.dir

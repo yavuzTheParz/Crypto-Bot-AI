@@ -3,5 +3,8 @@ XGBOOST
 Additional Features (prev_close, return, rolling mean, rolling std, rsi, macd, macd_signal, mac_diff)
 
 7 Days  : MSE: 2621, R2 Score: 0.9877
+20 Days : MSE: 26454416.59, R2 Score: -1.7725
+50 Days : MSE: 273890.71, R2 Score: 0.9749
+100 Days: MSE: 283403.52, R2 Score: 0.9823
 300 Days: MSE: 1931954.90, R2 Score: 0.9347
 

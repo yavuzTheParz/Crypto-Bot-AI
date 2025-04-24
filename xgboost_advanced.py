@@ -7,7 +7,7 @@ from ta.momentum import RSIIndicator
 from ta.trend import MACD
 
 # Load the data
-df = pd.read_csv("btc_data.csv")
+df = pd.read_csv("btc_data7days.csv")
 
 # Convert timestamp to datetime
 df['Timestamp'] = pd.to_datetime(df['Timestamp'])
@@ -52,12 +52,14 @@ y_train, y_test = y.iloc[:split], y.iloc[split:]
 
 # XGBoost model with regularization
 model = xgb.XGBRegressor(
-    n_estimators=100,
-    max_depth=4,
-    learning_rate=0.1,
-    subsample=0.8,
-    colsample_bytree=0.8,
-    early_stopping_rounds=10,
+    n_estimators=300,
+    max_depth=3,                # ⬇️ Lower depth for stability
+    learning_rate=0.05,         # ⬇️ Lower learning rate
+    subsample=0.7,
+    colsample_bytree=0.7,
+    reg_alpha=0.5,              # L1 regularization
+    reg_lambda=1.0,             # L2 regularization
+    early_stopping_rounds=20,
     random_state=42
 )
 
