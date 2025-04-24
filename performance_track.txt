@@ -1,0 +1,7 @@
+XGBOOST
+
+Additional Features (prev_close, return, rolling mean, rolling std, rsi, macd, macd_signal, mac_diff)
+
+7 Days  : MSE: 2621, R2 Score: 0.9877
+300 Days: MSE: 1931954.90, R2 Score: 0.9347
+
