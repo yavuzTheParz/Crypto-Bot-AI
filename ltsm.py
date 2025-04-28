@@ -9,7 +9,7 @@ from ta.momentum import RSIIndicator
 from ta.trend import MACD
 
 # Load data
-df = pd.read_csv('btc_data20days.csv')
+df = pd.read_csv('btc_data.csv')
 
 # Feature Engineering
 df['prev_close'] = df['Close'].shift(1)

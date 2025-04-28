@@ -8,3 +8,11 @@ Additional Features (prev_close, return, rolling mean, rolling std, rsi, macd, m
 100 Days: MSE: 283403.52, R2 Score: 0.9823
 300 Days: MSE: 1931954.90, R2 Score: 0.9347
 
+
+LTSM
+7 days: MSE: 7041.11, R2 Score: 0.9651
+10 days: MSE: 38519.23, R2 Score: 0.8937
+20 days: MSE: 368171.49, R2 Score: 0.9605
+50 days: MSE: 15838.20, R2 Score: 0.9986
+100 days: MSE: 11538.11, R2 Score: 0.9993
+300 days: MSE:  11636.27, R2 Score: 0.9996
