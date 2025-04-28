@@ -2,9 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import mean_squared_error, r2_score
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
-from sklearn.metrics import mean_squared_error, r2_score
+from tensorflow.keras.callbacks import EarlyStopping
 from ta.momentum import RSIIndicator
 from ta.trend import MACD
 
@@ -29,7 +30,7 @@ df['macd_diff'] = macd.macd_diff()
 # Target: next_close
 df['next_close'] = df['Close'].shift(-1)
 
-# Drop rows with NaNs (from rolling, shift, indicators)
+# Drop rows with NaNs
 df.dropna(inplace=True)
 
 # Select features and target
@@ -73,8 +74,17 @@ model.add(Dense(units=1))
 
 model.compile(optimizer='adam', loss='mean_squared_error')
 
+# Early stopping
+early_stop = EarlyStopping(monitor='loss', patience=10, restore_best_weights=True)
+
 # Train
-model.fit(x_train, y_train, epochs=10, batch_size=32)
+history = model.fit(
+    x_train, y_train,
+    epochs=100,
+    batch_size=32,
+    callbacks=[early_stop],
+    verbose=1
+)
 
 # Predict
 predicted_scaled = model.predict(x_test)
@@ -89,7 +99,7 @@ print(f'MSE: {mse:.2f}, R2 Score: {r2:.4f}')
 # Save model
 model.save('lstm_model_with_indicators.h5')
 
-# Plot
+# Plot Prediction vs Actual
 plt.figure(figsize=(12, 6))
 plt.plot(actual[:500], label='Actual')
 plt.plot(predicted[:500], label='Predicted')
@@ -98,4 +108,14 @@ plt.title("Prediction vs Actual (First 500 Points)")
 plt.xlabel("Time Steps")
 plt.ylabel("BTC Price")
 plt.show()
+
+# Plot Training Loss
+plt.figure(figsize=(8, 4))
+plt.plot(history.history['loss'], label='Training Loss')
+plt.title('Training Loss Over Epochs')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+plt.show()
+
 
