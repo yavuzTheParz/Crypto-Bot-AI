@@ -7,7 +7,7 @@ from ta.momentum import RSIIndicator
 from ta.trend import MACD
 
 # Load the data
-df = pd.read_csv("btc_data7days.csv")
+df = pd.read_csv("btc_data50days.csv")
 
 # Convert timestamp to datetime
 df['Timestamp'] = pd.to_datetime(df['Timestamp'])

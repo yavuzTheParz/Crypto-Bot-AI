@@ -23,10 +23,10 @@ int main() {
     const long long interval_ms = 60 * 1000; // 1 minute
 
     // Set start time to, say, 7 days ago
-    long long startTime = current_time_millis() - (7LL * 24 * 60 * 60 * 1000);
+    long long startTime = current_time_millis() - (50LL * 24 * 60 * 60 * 1000);
     long long endTime = current_time_millis();
 
-    ofstream file("btc_data7days.csv");
+    ofstream file("btc_data50days.csv");
     file << "Timestamp,Open,High,Low,Close,Volume\n";
 
     while (startTime < endTime) {
