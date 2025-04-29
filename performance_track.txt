@@ -18,4 +18,4 @@ LTSM
 300 days: MSE:  11636.27, R2 Score: 0.9996
 
 
-epoch will be increased and will try again
+epoch will be increased and will try again according to that. Also with higher data.
