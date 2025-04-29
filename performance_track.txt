@@ -16,3 +16,6 @@ LTSM
 50 days: MSE: 15838.20, R2 Score: 0.9986
 100 days: MSE: 11538.11, R2 Score: 0.9993
 300 days: MSE:  11636.27, R2 Score: 0.9996
+
+
+epoch will be increased and will try again
